@@ -20,12 +20,12 @@ import (
 	"testing"
 	"unicode"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/mysql"
-	"ariga.io/atlas/sql/postgres"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
-	"ariga.io/atlas/sql/sqlite"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/mysql"
+	"github.com/neko-sc/atlas/sql/postgres"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/sql/sqlite"
 
 	"github.com/pkg/diff"
 	"github.com/rogpeppe/go-internal/testscript"

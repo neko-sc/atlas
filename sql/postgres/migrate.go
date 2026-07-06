@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/internal/sqlx"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // DefaultPlan provides basic planning capabilities for PostgreSQL dialects.

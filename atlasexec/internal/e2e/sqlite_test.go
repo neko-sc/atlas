@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"ariga.io/atlas/atlasexec"
+	"github.com/neko-sc/atlas/atlasexec"
 	"github.com/stretchr/testify/require"
 
 	_ "github.com/mattn/go-sqlite3"

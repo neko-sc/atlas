@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 type (

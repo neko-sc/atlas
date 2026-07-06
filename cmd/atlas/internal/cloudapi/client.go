@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/vektah/gqlparser/v2/gqlerror"

@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/schemahcl"
+	"github.com/neko-sc/atlas/sql/schema"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"

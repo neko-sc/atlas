@@ -7,7 +7,7 @@ package sqlspec
 import (
 	"testing"
 
-	"ariga.io/atlas/schemahcl"
+	"github.com/neko-sc/atlas/schemahcl"
 
 	"github.com/stretchr/testify/require"
 )

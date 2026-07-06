@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"ariga.io/atlas/sql/internal/spectest"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/internal/spectest"
+	"github.com/neko-sc/atlas/sql/schema"
 	"github.com/stretchr/testify/require"
 )
 

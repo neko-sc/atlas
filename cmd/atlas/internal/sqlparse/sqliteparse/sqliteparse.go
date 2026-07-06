@@ -7,8 +7,8 @@ package sqliteparse
 import (
 	"errors"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 type FileParser struct{}

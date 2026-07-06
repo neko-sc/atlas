@@ -21,12 +21,12 @@ import (
 	"text/template"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdext"
-	cmdmigrate "ariga.io/atlas/cmd/atlas/internal/migrate"
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/revision"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdext"
+	cmdmigrate "github.com/neko-sc/atlas/cmd/atlas/internal/migrate"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/migrate/ent/revision"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 
 	"github.com/fatih/color"
 )

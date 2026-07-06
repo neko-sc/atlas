@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"ariga.io/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/migrate"
 )
 
 type (

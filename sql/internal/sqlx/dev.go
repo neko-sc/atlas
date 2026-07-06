@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // DevDriver is a driver that provides additional functionality

@@ -18,11 +18,11 @@ import (
 	"text/template"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/sqlparse"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/sqlparse"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlcheck"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 
 	"github.com/fatih/color"
 )

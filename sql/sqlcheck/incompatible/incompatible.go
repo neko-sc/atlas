@@ -9,11 +9,11 @@ import (
 	"errors"
 	"fmt"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
+	"github.com/neko-sc/atlas/schemahcl"
+	"github.com/neko-sc/atlas/sql/internal/sqlx"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlcheck"
 )
 
 // Analyzer checks for backwards-incompatible (breaking) changes.

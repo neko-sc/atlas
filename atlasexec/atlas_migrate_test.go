@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"ariga.io/atlas/atlasexec"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/sqlcheck"
+	"github.com/neko-sc/atlas/atlasexec"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/sqlcheck"
 	"github.com/stretchr/testify/require"
 )
 

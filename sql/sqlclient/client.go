@@ -13,9 +13,9 @@ import (
 	"net/url"
 	"sync"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/schemahcl"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 type (

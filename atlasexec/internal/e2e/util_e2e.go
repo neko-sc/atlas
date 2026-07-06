@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"ariga.io/atlas/atlasexec"
+	"github.com/neko-sc/atlas/atlasexec"
 )
 
 const testFixtureDir = "testdata"

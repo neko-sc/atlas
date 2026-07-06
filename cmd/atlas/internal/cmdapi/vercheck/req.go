@@ -8,7 +8,7 @@ import (
 	"context"
 	"net/http"
 
-	"ariga.io/atlas/cmd/atlas/internal/cloudapi"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cloudapi"
 )
 
 func addHeaders(_ context.Context, req *http.Request) {

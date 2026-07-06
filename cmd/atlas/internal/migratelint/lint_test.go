@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/migratelint"
-	"ariga.io/atlas/sql/migrate"
-	_ "ariga.io/atlas/sql/sqlite"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/migratelint"
+	"github.com/neko-sc/atlas/sql/migrate"
+	_ "github.com/neko-sc/atlas/sql/sqlite"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/internal/sqlx"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // DefaultDiff provides basic diffing capabilities for MySQL dialects.

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/revision"
-	"ariga.io/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/migrate/ent/revision"
+	"github.com/neko-sc/atlas/sql/migrate"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

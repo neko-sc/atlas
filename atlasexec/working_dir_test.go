@@ -14,7 +14,7 @@ import (
 	"testing/fstest"
 	"text/template"
 
-	"ariga.io/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/migrate"
 	"github.com/stretchr/testify/require"
 )
 

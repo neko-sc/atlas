@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"ariga.io/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/migrate"
 )
 
 type (

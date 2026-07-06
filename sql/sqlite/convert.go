@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // FormatType converts types to one format. A lowered format.

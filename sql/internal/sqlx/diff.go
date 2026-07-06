@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // NoChange can be returned by DiffDriver methods

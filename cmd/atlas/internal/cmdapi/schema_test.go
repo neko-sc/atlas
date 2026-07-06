@@ -16,10 +16,10 @@ import (
 	"strings"
 	"testing"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdlog"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 	"github.com/stretchr/testify/require"
 )
 

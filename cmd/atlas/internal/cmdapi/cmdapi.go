@@ -18,16 +18,16 @@ import (
 	"text/template"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdext"
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	cmdmigrate "ariga.io/atlas/cmd/atlas/internal/migrate"
-	"ariga.io/atlas/cmd/atlas/internal/cmdstate"
-	"ariga.io/atlas/cmd/atlas/internal/migratelint"
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdext"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdlog"
+	cmdmigrate "github.com/neko-sc/atlas/cmd/atlas/internal/migrate"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdstate"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/migratelint"
+	"github.com/neko-sc/atlas/schemahcl"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlcheck"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -55,11 +55,11 @@ var (
 	}
 
 	// flavor holds Atlas flavor. Custom flavors (like the community build) should set this by build flag
-	// "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.flavor=community'"
+	// "-X 'github.com/neko-sc/atlas/cmd/atlas/internal/cmdapi.flavor=community'"
 	flavor string
 
 	// version holds Atlas version. When built with cloud packages should be set by build flag, e.g.
-	// "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.version=v0.1.2'"
+	// "-X 'github.com/neko-sc/atlas/cmd/atlas/internal/cmdapi.version=v0.1.2'"
 	version string
 
 	// versionCmd represents the subcommand 'atlas version'.
@@ -83,7 +83,7 @@ var (
 	}
 
 	// license holds Atlas license. When built with cloud packages should be set by build flag
-	// "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.license=${license}'"
+	// "-X 'github.com/neko-sc/atlas/cmd/atlas/internal/cmdapi.license=${license}'"
 	license = `LICENSE
 Atlas is licensed under Apache 2.0 as found in https://github.com/ariga/atlas/blob/master/LICENSE.`
 

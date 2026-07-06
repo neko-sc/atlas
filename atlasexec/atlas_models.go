@@ -8,9 +8,9 @@ import (
 	"errors"
 	"time"
 
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlcheck"
+	"github.com/neko-sc/atlas/sql/sqlclient"
 )
 
 type (

@@ -14,17 +14,15 @@ import (
 	"syscall"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdapi"
-	"ariga.io/atlas/cmd/atlas/internal/cmdapi/vercheck"
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	"ariga.io/atlas/cmd/atlas/internal/cmdstate"
-	_ "ariga.io/atlas/cmd/atlas/internal/docker"
-	_ "ariga.io/atlas/sql/mysql"
-	_ "ariga.io/atlas/sql/mysql/mysqlcheck"
-	_ "ariga.io/atlas/sql/postgres"
-	_ "ariga.io/atlas/sql/postgres/postgrescheck"
-	_ "ariga.io/atlas/sql/sqlite"
-	_ "ariga.io/atlas/sql/sqlite/sqlitecheck"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdapi"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdapi/vercheck"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdlog"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdstate"
+	_ "github.com/neko-sc/atlas/cmd/atlas/internal/docker"
+	_ "github.com/neko-sc/atlas/sql/postgres"
+	_ "github.com/neko-sc/atlas/sql/postgres/postgrescheck"
+	_ "github.com/neko-sc/atlas/sql/sqlite"
+	_ "github.com/neko-sc/atlas/sql/sqlite/sqlitecheck"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
@@ -153,7 +151,7 @@ func initialize(ctx context.Context) (context.Context, func(error)) {
 		}
 		release := "curl -sSf https://atlasgo.sh | sh"
 		if runtime.GOOS == "windows" {
-			release = "https://release.ariga.io/atlas/atlas-windows-amd64-latest.exe"
+			release = "https://release.github.com/neko-sc/atlas/atlas-windows-amd64-latest.exe"
 		}
 		if err := cmdlog.WarnOnce(os.Stderr, cmdlog.ColorCyan(fmt.Sprintf(`You're running the community build of Atlas, which differs from the official version.
 If this error persists, try installing the official version as a troubleshooting step:

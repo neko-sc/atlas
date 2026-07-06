@@ -16,13 +16,13 @@ import (
 	"text/template"
 	"time"
 
-	cmdmigrate "ariga.io/atlas/cmd/atlas/internal/migrate"
+	cmdmigrate "github.com/neko-sc/atlas/cmd/atlas/internal/migrate"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
-	_ "ariga.io/atlas/sql/sqlite"
+	"github.com/neko-sc/atlas/cmd/atlas/internal/cmdlog"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/sqlclient"
+	_ "github.com/neko-sc/atlas/sql/sqlite"
 
 	"github.com/fatih/color"
 	_ "github.com/mattn/go-sqlite3"

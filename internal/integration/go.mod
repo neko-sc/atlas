@@ -1,14 +1,14 @@
-module ariga.io/atlas/internal/integration
+module github.com/neko-sc/atlas/internal/integration
 
 go 1.26.4
 
-replace ariga.io/atlas => ../../
+replace github.com/neko-sc/atlas => ../../
 
-replace ariga.io/atlas/cmd/atlas => ../../cmd/atlas
+replace github.com/neko-sc/atlas/cmd/atlas => ../../cmd/atlas
 
 require (
-	ariga.io/atlas v0.32.1-0.20250325101103-175b25e1c1b9
-	ariga.io/atlas/cmd/atlas v0.13.2-0.20231220130200-d8bd6f612d7a
+	github.com/neko-sc/atlas v0.32.1-0.20250325101103-175b25e1c1b9
+	github.com/neko-sc/atlas/cmd/atlas v0.13.2-0.20231220130200-d8bd6f612d7a
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/hashicorp/hcl/v2 v2.18.1
 	github.com/lib/pq v1.12.0

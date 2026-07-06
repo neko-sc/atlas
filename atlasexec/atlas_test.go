@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"ariga.io/atlas/atlasexec"
+	"github.com/neko-sc/atlas/atlasexec"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

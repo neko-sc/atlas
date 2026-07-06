@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"ariga.io/atlas/atlasexec"
+	"github.com/neko-sc/atlas/atlasexec"
 )
 
 func ExampleClient_MigrateApply() {

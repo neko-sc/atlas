@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/sql/migrate"
+	"github.com/neko-sc/atlas/sql/schema"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/stretchr/testify/require"

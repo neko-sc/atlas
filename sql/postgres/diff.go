@@ -13,9 +13,9 @@ import (
 	"strings"
 	"unicode"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
+	"github.com/neko-sc/atlas/schemahcl"
+	"github.com/neko-sc/atlas/sql/internal/sqlx"
+	"github.com/neko-sc/atlas/sql/schema"
 )
 
 // DefaultDiff provides basic diffing capabilities for PostgreSQL dialects.
